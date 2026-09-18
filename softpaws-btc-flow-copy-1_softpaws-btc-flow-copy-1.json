@@ -1,0 +1,2313 @@
+{
+  "version": 7,
+  "createdAt": 1789584636966,
+  "updatedAt": 1789729014184,
+  "name": "Softpaws BTC — Flow copy 1",
+  "id": "softpaws-btc-flow-copy-1",
+  "states": {
+    "panes": {
+      "_id": "panes",
+      "locked": true,
+      "layout": [
+        {
+          "i": "stats",
+          "type": "stats",
+          "y": 21,
+          "x": 3,
+          "w": 3,
+          "h": 3,
+          "moved": false
+        },
+        {
+          "i": "trades",
+          "type": "trades",
+          "y": 0,
+          "x": 3,
+          "w": 3,
+          "h": 16,
+          "moved": false
+        },
+        {
+          "i": "trades2",
+          "type": "trades",
+          "y": 0,
+          "x": 0,
+          "w": 3,
+          "h": 22,
+          "moved": false
+        },
+        {
+          "i": "stats2",
+          "type": "stats",
+          "y": 22,
+          "x": 0,
+          "w": 3,
+          "h": 2,
+          "moved": false
+        },
+        {
+          "i": "trades3",
+          "type": "trades",
+          "y": 16,
+          "x": 3,
+          "w": 3,
+          "h": 5,
+          "moved": false
+        },
+        {
+          "i": "chart",
+          "type": "chart",
+          "x": 6,
+          "y": 0,
+          "w": 11,
+          "h": 24,
+          "moved": false
+        },
+        {
+          "i": "chart_ltf",
+          "type": "chart",
+          "x": 17,
+          "y": 0,
+          "w": 7,
+          "h": 24,
+          "moved": false
+        }
+      ],
+      "panes": {
+        "chart": {
+          "id": "chart",
+          "name": "30m",
+          "type": "chart",
+          "markets": [
+            "BYBIT:BTCUSDT-SPOT",
+            "BYBIT:BTCUSDC-SPOT",
+            "BINANCE:btcusdt",
+            "BINANCE:btctusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcfdusd",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITGET:BTCUSDC",
+            "BITGET:BTCUSDT",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdc",
+            "BITSTAMP:btcusdt",
+            "COINBASE:BTC-USDC",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "HUOBI:btcusdc",
+            "HUOBI:btcusdd",
+            "HUOBI:btcusdt",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KRAKEN:XBT/USD",
+            "KUCOIN:BTC-USDT",
+            "KUCOIN:BTC-USDC",
+            "MEXC:BTCUSDC",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USD",
+            "OKEX:BTC-USDT",
+            "OKEX:BTC-USDC",
+            "POLONIEX:BTC_USDT",
+            "POLONIEX:BTC_USDC",
+            "POLONIEX:BTC_USDD",
+            "BINANCE_US:btcusdt",
+            "BINANCE_US:btcusdc",
+            "BINANCE_US:btcusd",
+            "BITMART:BTC_USDT",
+            "BITMART:BTC_USDC",
+            "BITMART:BTC_TUSD",
+            "CRYPTOCOM:BTC_USD",
+            "CRYPTOCOM:BTC_USDT",
+            "GATEIO:BTC_USDT-SPOT",
+            "GATEIO:BTC_USDC-SPOT",
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE_FUTURES:btcusdc",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSD",
+            "BITGET:BTCUSDT_UMCBL",
+            "BITGET:BTCUSD_DMCBL",
+            "BITGET:BTCPERP_CMCBL",
+            "BITMEX:XBTUSDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBT_USDT",
+            "BITUNIX:BTCUSDT",
+            "COINBASE:BTC-PERP-INTX",
+            "DERIBIT:BTC-PERPETUAL",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DYDX:BTC-USD",
+            "HUOBI:BTC-USD",
+            "HUOBI:BTC-USDT",
+            "HYPERLIQUID:BTC",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:PF_XBTUSD",
+            "KUCOIN:XBTUSDTM",
+            "KUCOIN:XBTUSDCM",
+            "KUCOIN:XBTUSDM",
+            "MEXC:BTC_USDT",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDC",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDT-SWAP",
+            "OKEX:BTC-USDC-SWAP",
+            "BITMART:BTCUSDT",
+            "BITMART:BTCUSD",
+            "BITMART:BTCUSDC",
+            "GATEIO:BTC_USDT",
+            "GATEIO:BTC_USD",
+            "PHEMEX:BTCUSD",
+            "PHEMEX:BTCUSDC",
+            "PHEMEX:BTCUSDT"
+          ],
+          "zoom": 0.875
+        },
+        "stats": {
+          "id": "stats",
+          "name": "",
+          "type": "stats",
+          "markets": [
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE_FUTURES:btcusdc",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSD",
+            "BITGET:BTCUSDT_UMCBL",
+            "BITGET:BTCUSD_DMCBL",
+            "BITGET:BTCPERP_CMCBL",
+            "BITMEX:XBTUSDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBT_USDT",
+            "BITUNIX:BTCUSDT",
+            "COINBASE:BTC-PERP-INTX",
+            "DERIBIT:BTC-PERPETUAL",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DYDX:BTC-USD",
+            "HUOBI:BTC-USD",
+            "HUOBI:BTC-USDT",
+            "HYPERLIQUID:BTC",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:PF_XBTUSD",
+            "KUCOIN:XBTUSDTM",
+            "KUCOIN:XBTUSDCM",
+            "KUCOIN:XBTUSDM",
+            "MEXC:BTC_USDT",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDC",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDT-SWAP",
+            "OKEX:BTC-USDC-SWAP",
+            "BITMART:BTCUSDT",
+            "BITMART:BTCUSD",
+            "BITMART:BTCUSDC",
+            "GATEIO:BTC_USDT",
+            "GATEIO:BTC_USD",
+            "PHEMEX:BTCUSD",
+            "PHEMEX:BTCUSDC",
+            "PHEMEX:BTCUSDT"
+          ]
+        },
+        "trades": {
+          "id": "trades",
+          "name": "Perp Trades",
+          "type": "trades",
+          "zoom": 0.875,
+          "markets": [
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE_FUTURES:btcusdc",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSD",
+            "BITGET:BTCUSDT_UMCBL",
+            "BITGET:BTCUSD_DMCBL",
+            "BITGET:BTCPERP_CMCBL",
+            "BITMEX:XBTUSDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBT_USDT",
+            "BITUNIX:BTCUSDT",
+            "COINBASE:BTC-PERP-INTX",
+            "DERIBIT:BTC-PERPETUAL",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DYDX:BTC-USD",
+            "HUOBI:BTC-USD",
+            "HUOBI:BTC-USDT",
+            "HYPERLIQUID:BTC",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:PF_XBTUSD",
+            "KUCOIN:XBTUSDTM",
+            "KUCOIN:XBTUSDCM",
+            "KUCOIN:XBTUSDM",
+            "MEXC:BTC_USDT",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDC",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDT-SWAP",
+            "OKEX:BTC-USDC-SWAP",
+            "BITMART:BTCUSDT",
+            "BITMART:BTCUSD",
+            "BITMART:BTCUSDC",
+            "GATEIO:BTC_USDT",
+            "GATEIO:BTC_USD",
+            "PHEMEX:BTCUSD",
+            "PHEMEX:BTCUSDC",
+            "PHEMEX:BTCUSDT"
+          ]
+        },
+        "trades2": {
+          "id": "trades2",
+          "name": "Spot Trades",
+          "type": "trades",
+          "zoom": 0.875,
+          "markets": [
+            "BYBIT:BTCUSDT-SPOT",
+            "BYBIT:BTCUSDC-SPOT",
+            "BINANCE:btcusdt",
+            "BINANCE:btctusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcfdusd",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITGET:BTCUSDC",
+            "BITGET:BTCUSDT",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdc",
+            "BITSTAMP:btcusdt",
+            "COINBASE:BTC-USDC",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "HUOBI:btcusdc",
+            "HUOBI:btcusdd",
+            "HUOBI:btcusdt",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KRAKEN:XBT/USD",
+            "KUCOIN:BTC-USDT",
+            "KUCOIN:BTC-USDC",
+            "MEXC:BTCUSDC",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USD",
+            "OKEX:BTC-USDT",
+            "OKEX:BTC-USDC",
+            "POLONIEX:BTC_USDT",
+            "POLONIEX:BTC_USDC",
+            "POLONIEX:BTC_USDD",
+            "BINANCE_US:btcusdt",
+            "BINANCE_US:btcusdc",
+            "BINANCE_US:btcusd",
+            "BITMART:BTC_USDT",
+            "BITMART:BTC_USDC",
+            "BITMART:BTC_TUSD",
+            "CRYPTOCOM:BTC_USD",
+            "CRYPTOCOM:BTC_USDT",
+            "GATEIO:BTC_USDT-SPOT",
+            "GATEIO:BTC_USDC-SPOT"
+          ]
+        },
+        "stats2": {
+          "id": "stats2",
+          "name": "",
+          "type": "stats",
+          "zoom": 0.875,
+          "markets": [
+            "BYBIT:BTCUSDT-SPOT",
+            "BYBIT:BTCUSDC-SPOT",
+            "BINANCE:btcusdt",
+            "BINANCE:btctusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcfdusd",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITGET:BTCUSDC",
+            "BITGET:BTCUSDT",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdc",
+            "BITSTAMP:btcusdt",
+            "COINBASE:BTC-USDC",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "HUOBI:btcusdc",
+            "HUOBI:btcusdd",
+            "HUOBI:btcusdt",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KRAKEN:XBT/USD",
+            "KUCOIN:BTC-USDT",
+            "KUCOIN:BTC-USDC",
+            "MEXC:BTCUSDC",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USD",
+            "OKEX:BTC-USDT",
+            "OKEX:BTC-USDC",
+            "POLONIEX:BTC_USDT",
+            "POLONIEX:BTC_USDC",
+            "POLONIEX:BTC_USDD",
+            "BINANCE_US:btcusdt",
+            "BINANCE_US:btcusdc",
+            "BINANCE_US:btcusd",
+            "BITMART:BTC_USDT",
+            "BITMART:BTC_USDC",
+            "BITMART:BTC_TUSD",
+            "CRYPTOCOM:BTC_USD",
+            "CRYPTOCOM:BTC_USDT",
+            "GATEIO:BTC_USDT-SPOT",
+            "GATEIO:BTC_USDC-SPOT"
+          ]
+        },
+        "trades3": {
+          "id": "trades3",
+          "name": "",
+          "type": "trades",
+          "markets": [
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE_FUTURES:btcusdc",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSD",
+            "BITGET:BTCUSDT_UMCBL",
+            "BITGET:BTCUSD_DMCBL",
+            "BITGET:BTCPERP_CMCBL",
+            "BITMEX:XBTUSDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBT_USDT",
+            "BITUNIX:BTCUSDT",
+            "COINBASE:BTC-PERP-INTX",
+            "DERIBIT:BTC-PERPETUAL",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DYDX:BTC-USD",
+            "HUOBI:BTC-USD",
+            "HUOBI:BTC-USDT",
+            "HYPERLIQUID:BTC",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:PF_XBTUSD",
+            "KUCOIN:XBTUSDTM",
+            "KUCOIN:XBTUSDCM",
+            "KUCOIN:XBTUSDM",
+            "MEXC:BTC_USDT",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDC",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDT-SWAP",
+            "OKEX:BTC-USDC-SWAP",
+            "BITMART:BTCUSDT",
+            "BITMART:BTCUSD",
+            "BITMART:BTCUSDC",
+            "GATEIO:BTC_USDT",
+            "GATEIO:BTC_USD",
+            "PHEMEX:BTCUSD",
+            "PHEMEX:BTCUSDC",
+            "PHEMEX:BTCUSDT"
+          ]
+        },
+        "chart_ltf": {
+          "id": "chart_ltf",
+          "name": "Activity 5m",
+          "type": "chart",
+          "zoom": 1,
+          "markets": [
+            "BYBIT:BTCUSDT-SPOT",
+            "BYBIT:BTCUSDC-SPOT",
+            "BINANCE:btcusdt",
+            "BINANCE:btctusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcfdusd",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITGET:BTCUSDC",
+            "BITGET:BTCUSDT",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdc",
+            "BITSTAMP:btcusdt",
+            "COINBASE:BTC-USDC",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "HUOBI:btcusdc",
+            "HUOBI:btcusdd",
+            "HUOBI:btcusdt",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KRAKEN:XBT/USD",
+            "KUCOIN:BTC-USDT",
+            "KUCOIN:BTC-USDC",
+            "MEXC:BTCUSDC",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USD",
+            "OKEX:BTC-USDT",
+            "OKEX:BTC-USDC",
+            "POLONIEX:BTC_USDT",
+            "POLONIEX:BTC_USDC",
+            "POLONIEX:BTC_USDD",
+            "BINANCE_US:btcusdt",
+            "BINANCE_US:btcusdc",
+            "BINANCE_US:btcusd",
+            "BITMART:BTC_USDT",
+            "BITMART:BTC_USDC",
+            "BITMART:BTC_TUSD",
+            "CRYPTOCOM:BTC_USD",
+            "CRYPTOCOM:BTC_USDT",
+            "GATEIO:BTC_USDT-SPOT",
+            "GATEIO:BTC_USDC-SPOT",
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE_FUTURES:btcusdc",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSD",
+            "BITGET:BTCUSDT_UMCBL",
+            "BITGET:BTCUSD_DMCBL",
+            "BITGET:BTCPERP_CMCBL",
+            "BITMEX:XBTUSDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBT_USDT",
+            "BITUNIX:BTCUSDT",
+            "COINBASE:BTC-PERP-INTX",
+            "DERIBIT:BTC-PERPETUAL",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DYDX:BTC-USD",
+            "HUOBI:BTC-USD",
+            "HUOBI:BTC-USDT",
+            "HYPERLIQUID:BTC",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:PF_XBTUSD",
+            "KUCOIN:XBTUSDTM",
+            "KUCOIN:XBTUSDCM",
+            "KUCOIN:XBTUSDM",
+            "MEXC:BTC_USDT",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDC",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDT-SWAP",
+            "OKEX:BTC-USDC-SWAP",
+            "BITMART:BTCUSDT",
+            "BITMART:BTCUSD",
+            "BITMART:BTCUSDC",
+            "GATEIO:BTC_USDT",
+            "GATEIO:BTC_USD",
+            "PHEMEX:BTCUSD",
+            "PHEMEX:BTCUSDC",
+            "PHEMEX:BTCUSDT"
+          ]
+        }
+      },
+      "syncedWithParentFrame": []
+    },
+    "settings": {
+      "_id": "settings",
+      "preferQuoteCurrencySize": true,
+      "aggregationLength": 1,
+      "calculateSlippage": "bps",
+      "wsProxyUrl": null,
+      "disableAnimations": false,
+      "autoHideHeaders": true,
+      "autoHideNames": true,
+      "theme": "dark",
+      "backgroundColor": "rgb(25,25,25)",
+      "textColor": "",
+      "buyColor": "rgb(41,98,255)",
+      "sellColor": "rgb(233,30,99)",
+      "timezoneOffset": -14400000,
+      "useAudio": true,
+      "audioVolume": 1.06,
+      "audioFilters": {
+        "PingPongDelay": true,
+        "Compressor": false,
+        "Delay": false,
+        "HighPassFilter": true,
+        "LowPassFilter": false
+      },
+      "sections": [
+        "timeframe-minutes",
+        "settings-workspaces",
+        "settings-other",
+        "indicator-right-colors",
+        "indicator-right-scale",
+        "indicator-right-default",
+        "indicator-left-colors",
+        "indicator-left-other",
+        "trades-thresholds",
+        "search-extras",
+        "search-exchanges",
+        "settings-colors",
+        "indicator-left-script",
+        "search-type",
+        "timeframe-hours"
+      ],
+      "searchTypes": {
+        "historical": true,
+        "spots": true,
+        "perpetuals": true,
+        "futures": false,
+        "normalize": true,
+        "mergeUsdt": false
+      },
+      "searchQuotes": {},
+      "previousSearchSelections": [],
+      "searchExchanges": {
+        "AGGR": true,
+        "BINANCE": true,
+        "BINANCE_FUTURES": true,
+        "BINANCE_US": true,
+        "BITFINEX": true,
+        "BITMEX": true,
+        "BITSTAMP": true,
+        "BYBIT": true,
+        "COINBASE": true,
+        "DERIBIT": true,
+        "DYDX": true,
+        "HITBTC": false,
+        "HUOBI": true,
+        "KRAKEN": true,
+        "KUCOIN": true,
+        "OKEX": true,
+        "PHEMEX": false,
+        "POLONIEX": false,
+        "MEXC": false
+      },
+      "timeframes": [
+        {
+          "label": "1s",
+          "value": "1"
+        },
+        {
+          "label": "3s",
+          "value": "3"
+        },
+        {
+          "label": "5s",
+          "value": "5"
+        },
+        {
+          "label": "10s",
+          "value": "10"
+        },
+        {
+          "label": "15s",
+          "value": "15"
+        },
+        {
+          "label": "30s",
+          "value": "30"
+        },
+        {
+          "label": "1m",
+          "value": "60"
+        },
+        {
+          "label": "3m",
+          "value": "180"
+        },
+        {
+          "label": "5m",
+          "value": "300"
+        },
+        {
+          "label": "15m",
+          "value": "900"
+        },
+        {
+          "label": "21m",
+          "value": "1260"
+        },
+        {
+          "label": "30m",
+          "value": "1800"
+        },
+        {
+          "label": "1h",
+          "value": "3600"
+        },
+        {
+          "label": "2h",
+          "value": "7200"
+        },
+        {
+          "label": "4h",
+          "value": "14400"
+        },
+        {
+          "label": "6h",
+          "value": "21600"
+        },
+        {
+          "label": "8h",
+          "value": "28800"
+        },
+        {
+          "label": "12h",
+          "value": "43200"
+        },
+        {
+          "label": "1d",
+          "value": "86400"
+        },
+        {
+          "label": "21 ticks",
+          "value": "21t"
+        },
+        {
+          "label": "50 ticks",
+          "value": "50t"
+        },
+        {
+          "label": "89 ticks",
+          "value": "89t"
+        },
+        {
+          "label": "100 ticks",
+          "value": "100t"
+        },
+        {
+          "label": "200 ticks",
+          "value": "200t"
+        },
+        {
+          "label": "610 ticks",
+          "value": "610t"
+        },
+        {
+          "label": "1000 ticks",
+          "value": "1000t"
+        },
+        {
+          "label": "1597 ticks",
+          "value": "1597t"
+        }
+      ],
+      "favoriteTimeframes": {
+        "60": "1m",
+        "300": "5m",
+        "900": "15m",
+        "1800": "30m",
+        "3600": "1h",
+        "14400": "4h"
+      },
+      "normalizeWatermarks": true,
+      "alerts": false,
+      "alertsColor": "rgb(255, 0, 0)",
+      "alertsLineStyle": 2,
+      "alertsLineWidth": 2,
+      "alertsClick": false,
+      "alertSound": null,
+      "showThresholdsAsTable": true,
+      "settings": [
+        "workspaces",
+        "chart",
+        "stats",
+        "counters",
+        "audio",
+        "exchanges",
+        "list",
+        "other"
+      ],
+      "searchSections": [
+        "types",
+        "exchanges",
+        "extras"
+      ],
+      "timeframeGroups": [
+        "seconds",
+        "minutes",
+        "hours"
+      ],
+      "indicatorDialogNavigation": "{\"optionsQuery\":\"\",\"editorOptions\":{},\"columnWidth\":240,\"tab\":\"options\"}"
+    },
+    "exchanges": {
+      "AGGR": {
+        "disabled": true
+      },
+      "BINANCE": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BINANCE_FUTURES": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BINANCE_US": {
+        "disabled": true,
+        "fetched": false
+      },
+      "BITFINEX": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BITGET": {
+        "disabled": false
+      },
+      "BITMART": {
+        "disabled": true
+      },
+      "BITMEX": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BITSTAMP": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BYBIT": {
+        "disabled": false,
+        "fetched": true
+      },
+      "COINBASE": {
+        "disabled": false,
+        "fetched": true
+      },
+      "CRYPTOCOM": {
+        "disabled": true
+      },
+      "DERIBIT": {
+        "disabled": false,
+        "fetched": true
+      },
+      "DYDX": {
+        "disabled": false,
+        "fetched": false
+      },
+      "GATEIO": {
+        "disabled": true
+      },
+      "HITBTC": {
+        "disabled": true,
+        "fetched": false
+      },
+      "HUOBI": {
+        "disabled": true,
+        "fetched": false
+      },
+      "KRAKEN": {
+        "disabled": false,
+        "fetched": true
+      },
+      "KUCOIN": {
+        "disabled": true
+      },
+      "MEXC": {
+        "disabled": true
+      },
+      "OKEX": {
+        "disabled": false,
+        "fetched": false
+      },
+      "PHEMEX": {
+        "disabled": true,
+        "fetched": false
+      },
+      "POLONIEX": {
+        "disabled": true,
+        "fetched": true
+      },
+      "UNISWAP": {
+        "disabled": false
+      },
+      "_id": "exchanges"
+    },
+    "chart": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "price": {
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "enabled": true,
+          "name": "Price",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 1,
+              "minMove": 0.1
+            },
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(255,255,255,0.7)",
+            "downColor": "rgb(0,0,0)",
+            "borderUpColor": "rgba(255,255,255,0.5)",
+            "borderDownColor": "rgba(255,255,255,0.5)",
+            "wickUpColor": "rgba(255,255,255,0.5)",
+            "wickDownColor": "rgba(255,255,255,0.5)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.02,
+              "bottom": 0.74
+            }
+          },
+          "id": "price",
+          "createdAt": 1648450392186,
+          "updatedAt": 1655384803830,
+          "series": [
+            "price"
+          ],
+          "unsavedChanges": true,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSize": 1
+          },
+          "displayName": "Price",
+          "optionsDefinitions": {}
+        },
+        "cvd": {
+          "script": "line(cum(vbuy-vsell), title=CVD)",
+          "id": "cvd",
+          "name": "CVD",
+          "priceScaleId": "cvd",
+          "options": {
+            "priceScaleId": "cvd",
+            "color": "rgba(255,255,255,0.14)",
+            "scaleMargins": {
+              "top": 0.27,
+              "bottom": 0.55
+            }
+          },
+          "series": [
+            "cvd"
+          ],
+          "displayName": "CVD",
+          "unsavedChanges": true,
+          "createdAt": 1650978997397,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 12
+          },
+          "updatedAt": 1666695368508,
+          "optionsDefinitions": {}
+        },
+        "premium": {
+          "script": "spot = source(close, type=spot)\nperp = source(close, type=perp)\n// aggregate spot vs aggregate perp basis, in bps (scale-free across regimes)\nprem = (spot - perp) / perp * 10000\ncloudarea(prem, 0, title=Premium)\n",
+          "id": "premium",
+          "name": "Premium",
+          "priceScaleId": "premium",
+          "options": {
+            "priceScaleId": "premium",
+            "visible": true,
+            "color": "rgb(10,96,162)",
+            "positiveColor": "rgb(233,30,99)",
+            "higherLineColor": "rgba(194,24,91,0.01)",
+            "negativeColor": "rgb(41,98,255)",
+            "lowerLineColor": "rgba(10,96,162,0.01)",
+            "scaleMargins": {
+              "top": 0.69,
+              "bottom": 0.26
+            }
+          },
+          "series": [
+            "premium"
+          ],
+          "displayName": "Premium (bps)",
+          "unsavedChanges": true,
+          "createdAt": 1670318628909,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "updatedAt": 1789575702208,
+          "optionsDefinitions": {},
+          "libraryId": "premium"
+        },
+        "liquidations": {
+          "script": "plothistogram(lbuy, color=options.upColor)\nplothistogram(-lsell, color=options.downColor)",
+          "enabled": true,
+          "name": "Liquidations",
+          "description": "Liquidations by side",
+          "options": {
+            "priceScaleId": "volume_liquidations",
+            "priceFormat": {
+              "type": "volume"
+            },
+            "upColor": "rgb(255,76,243)",
+            "downColor": "rgb(255,183,77)",
+            "scaleMargins": {
+              "top": 0.88,
+              "bottom": 0.06
+            },
+            "visible": true
+          },
+          "id": "liquidations",
+          "createdAt": 1660654392488,
+          "updatedAt": 1623024000000,
+          "series": [
+            "liquidations",
+            "e5m00pal"
+          ],
+          "displayName": "Liquidations",
+          "optionsDefinitions": {}
+        },
+        "cvd-spot": {
+          "id": "cvd-spot",
+          "libraryId": "cvd-spot",
+          "name": "CVD SPOT",
+          "script": "buyVol = source(vbuy, type=spot)\nsellVol = source(vsell, type=spot)\nline(cum(buyVol - sellVol), title=SPOT)",
+          "createdAt": 1623024000001,
+          "updatedAt": 1716455387096,
+          "options": {
+            "priceScaleId": "cvd-spot",
+            "priceFormat": {
+              "type": "volume"
+            },
+            "color": "rgb(41,98,255)",
+            "scaleMargins": {
+              "top": 0.27,
+              "bottom": 0.55
+            },
+            "visible": true
+          },
+          "optionsDefinitions": {},
+          "series": [
+            "cvd-spot"
+          ],
+          "displayName": "CVD SPOT",
+          "unsavedChanges": true
+        },
+        "cvd-perp": {
+          "id": "cvd-perp",
+          "libraryId": "cvd-perp",
+          "name": "CVD PERP",
+          "script": "buyVol = source(vbuy, type=perp)\nsellVol = source(vsell, type=perp)\nline(cum(buyVol - sellVol), title=PERP)",
+          "createdAt": 1623024000001,
+          "updatedAt": 1718177623250,
+          "options": {
+            "priceScaleId": "cvd-perp",
+            "priceFormat": {
+              "type": "volume"
+            },
+            "color": "rgb(233,30,99)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.27,
+              "bottom": 0.55
+            }
+          },
+          "optionsDefinitions": {},
+          "series": [
+            "cvd-perp"
+          ],
+          "displayName": "CVD PERP",
+          "unsavedChanges": false
+        },
+        "keltner": {
+          "id": "keltner",
+          "libraryId": "keltner-channel",
+          "name": "Keltner Channel",
+          "script": "price = avg_ohlc(bar)\nclose = avg_close(bar)\n\nrange = price.high - price.low\naverageRange = sma(range, options.length)\n\nbasis = ema(close, options.length)\ndev = options.mult * averageRange\nupper = basis + dev\nlower = basis - dev\n\nplotline(basis, color=options.basisColor)\nplotcloudarea(lower, upper)",
+          "createdAt": 1655384303690,
+          "updatedAt": 1716530023768,
+          "options": {
+            "priceScaleId": "right",
+            "color": "rgba(121,122,123,0.35)",
+            "positiveColor": "rgba(4,0,2,0.39)",
+            "negativeColor": "rgba(224,0,0,0)",
+            "lowerLineColor": "rgba(6,33,75,0)",
+            "mult": 10,
+            "length": 200,
+            "higherLineColor": "rgba(6,33,75,0)",
+            "visible": true,
+            "basisColor": "rgba(40,130,255,0.5)",
+            "higherLineStyle": 0,
+            "higherLineWidth": 1,
+            "lineStyle": 1,
+            "scaleMargins": {
+              "top": 0.02,
+              "bottom": 0.74
+            }
+          },
+          "optionsDefinitions": {},
+          "series": [
+            "keltner-channel",
+            "49a3t3pv"
+          ],
+          "displayName": "Keltner Channel"
+        },
+        "delta-spot": {
+          "id": "delta-spot",
+          "libraryId": "delta-spot",
+          "name": "Delta Spot",
+          "script": "_vbuy = source(vbuy, type=spot)\n_vsell = source(vsell, type=spot)\nvolume = _vbuy+_vsell\na = sma(Math.pow(volume,2),options.length)\nb = Math.pow(sum(volume,options.length),2)/Math.pow(options.length,2)\nstdev = Math.sqrt(a - b)\navg = sma(volume, options.length)\ndev = options.mult * stdev\ntreshold = avg + dev\ndelta = _vbuy - _vsell\n\nplothistogram({ time: time, value: (delta), color: delta > 0 ? ( volume > treshold ? options.upColorHighVol : options.upColorLowVol) : ( volume > treshold ? options.downColorHighVol : options.downColorLowVol)}, title=\"Δ Spot\")",
+          "createdAt": 1649243605267,
+          "updatedAt": 1718180977112,
+          "options": {
+            "priceScaleId": "delta-spot",
+            "upColor": "rgb(100,181,246)",
+            "downColor": "rgb(236,64,122)",
+            "visible": true,
+            "upColorLowVol": "rgb(41,98,255)",
+            "downColorLowVol": "rgb(233,30,99)",
+            "upColorHighVol": "rgb(126,160,255)",
+            "downColorHighVol": "rgb(254,119,164)",
+            "length": 14,
+            "scaleMargins": {
+              "top": 0.53,
+              "bottom": 0.4
+            },
+            "mult": 1
+          },
+          "optionsDefinitions": {},
+          "series": [
+            "delta-spot"
+          ],
+          "displayName": "Delta Spot",
+          "unsavedChanges": true
+        },
+        "delta-perp": {
+          "id": "delta-perp",
+          "libraryId": "delta-perp",
+          "name": "Delta Perp",
+          "script": "_vbuy = source(vbuy, type=perp)\n_vsell = source(vsell, type=perp)\nvolume = _vbuy+_vsell\na = sma(Math.pow(volume,2),options.length)\nb = Math.pow(sum(volume,options.length),2)/Math.pow(options.length,2)\nstdev = Math.sqrt(a - b)\navg = sma(volume, options.length)\ndev = options.mult * stdev\ntreshold = avg + dev\ndelta = _vbuy - _vsell\n\nplothistogram({ time: time, value: (delta), color: delta > 0 ? ( volume > treshold ? options.upColorHighVol : options.upColorLowVol) : ( volume > treshold ? options.downColorHighVol : options.downColorLowVol)}, title=\"Δ Perp\")",
+          "createdAt": 1716533105643,
+          "updatedAt": 1718180957614,
+          "options": {
+            "priceScaleId": "delta-perp",
+            "length": 14,
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.61,
+              "bottom": 0.32
+            },
+            "upColorHighVol": "rgb(126,160,255)",
+            "downColorHighVol": "rgb(254,119,164)",
+            "upColorLowVol": "rgb(41,98,255)",
+            "downColorLowVol": "rgb(233,30,99)",
+            "mult": null
+          },
+          "optionsDefinitions": {},
+          "series": [
+            "delta-perp"
+          ],
+          "displayName": "Delta Perp",
+          "unsavedChanges": false
+        },
+        "volume": {
+          "id": "volume",
+          "libraryId": "volume",
+          "name": "Volume",
+          "script": "volume = vbuy + vsell\ndelta = vbuy - vsell\n\ngetStDevAboveAvg = function(v) {\n  a = sma(Math.pow(v,2),options.length)\n  b = Math.pow(sum(v,options.length),2)/Math.pow(options.length,2)\n  stdev = Math.sqrt(a - b)\n  avg = sma(v, options.length)\n  return avg+stdev*options.mult\n}\n\nvThreshold = getStDevAboveAvg(volume)\nabsDelta = Math.abs(delta)\ndeltaThreshold = getStDevAboveAvg(absDelta)\n\nvolumeColor = vbuy > vsell ? options.upColor : options.downColor\nif (volume > vThreshold)\n  volumeColor = vbuy > vsell ? options.upBgColor : options.downBgColor\n\nplothistogram({\n  time: time,\n  value: volume,\n  color: volumeColor\n})\n\nif (options.showDelta && absDelta > deltaThreshold) {\n  plothistogram({ time: time, value: absDelta, color: options.deltaColor})\n}",
+          "createdAt": 1660654392488,
+          "updatedAt": 1718184179032,
+          "options": {
+            "priceScaleId": "volume",
+            "priceFormat": {
+              "type": "volume"
+            },
+            "upColor": "rgb(67,70,81)",
+            "downColor": "rgb(67,70,81)",
+            "scaleMargins": {
+              "top": 0.94,
+              "bottom": 0
+            },
+            "showDelta": true,
+            "upBgColor": "rgb(41,98,255)",
+            "downBgColor": "rgb(233,30,99)",
+            "visible": true,
+            "deltaColor": "rgb(255,255,255)",
+            "length": 100,
+            "mult": 2
+          },
+          "optionsDefinitions": {},
+          "series": [
+            "volume",
+            "jl2vetfq"
+          ],
+          "displayName": "Volume",
+          "unsavedChanges": false
+        },
+        "cb-premium": {
+          "script": "// Coinbase premium (COINBASE:BTC-USD vs BINANCE:btcusdt) in bps.\n// The LEVEL carries a structural ~5-10 bps offset from USDT trading off par, so the raw value is\n// almost always negative and tells you little. The SIGNAL is the deviation from its own rolling mean:\n//   Green ABOVE zero = US bid strengthening vs its recent norm\n//   Orange BELOW zero = US bid weakening vs its recent norm\n// Thin grey line = raw bps level, for reference.\ncbPx = COINBASE:BTC-USD.close\nbnPx = BINANCE:btcusdt.close\ncbBps = (cbPx / bnPx - 1) * 10000\nbaseline = sma(cbBps, options.baseline)\ndev = cbBps - baseline\nplotline(0, color=options.zeroColor)\nplothistogram({ time: time, value: dev, color: dev > 0 ? options.posColor : options.negColor }, title=\"CB Prem vs 24h avg\")\nline(cbBps, color=options.rawColor, title=\"CB Prem raw bps\")\n",
+          "id": "cb-premium",
+          "name": "CB Premium",
+          "priceScaleId": "cb-premium",
+          "options": {
+            "priceScaleId": "cb-premium",
+            "visible": true,
+            "zeroColor": "rgba(255,255,255,0.25)",
+            "scaleMargins": {
+              "top": 0.75,
+              "bottom": 0.2
+            },
+            "posColor": "rgb(0,200,120)",
+            "negColor": "rgb(255,152,0)",
+            "baseline": 48,
+            "rawColor": "rgba(255,255,255,0.45)"
+          },
+          "series": [
+            "cb-premium",
+            "tvrcmua9",
+            "wkpdw8pf"
+          ],
+          "displayName": "CB Premium",
+          "unsavedChanges": false,
+          "createdAt": 1789575702208,
+          "updatedAt": 1789576056802,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "cb-premium"
+        },
+        "spot-perp-flow": {
+          "script": "// Aggression spread: who is hitting the tape harder on the buy side, spot or perps?\n// Each side's delta is divided by its own volume -> a ratio in [-1, +1] per bar\n//   (+1 = every trade was a market buy, -1 = every trade was a market sell).\n// The bar plotted is  spot_ratio - perp_ratio, smoothed.\n//   Blue ABOVE zero  = spot more aggressively bought than perps  (spot-led; tends to hold)\n//   Pink BELOW zero  = perps more aggressively bought than spot  (perp-led; tends to round-trip)\nsb = source(vbuy, type=spot)\nss = source(vsell, type=spot)\npb = source(vbuy, type=perp)\nps = source(vsell, type=perp)\nspotRatio = (sb - ss) / Math.max(sb + ss, 1)\nperpRatio = (pb - ps) / Math.max(pb + ps, 1)\nspread = sma(spotRatio - perpRatio, options.smooth)\nplotline(0, color=options.zeroColor)\nplothistogram({ time: time, value: spread, color: spread > 0 ? options.spotLedColor : options.perpLedColor }, title=\"Spot-Perp Aggression\")\n",
+          "id": "spot-perp-flow",
+          "name": "Spot-Perp Aggression",
+          "priceScaleId": "spot-perp-flow",
+          "options": {
+            "priceScaleId": "spot-perp-flow",
+            "visible": true,
+            "zeroColor": "rgba(255,255,255,0.25)",
+            "scaleMargins": {
+              "top": 0.46,
+              "bottom": 0.48
+            },
+            "smooth": 6,
+            "spotLedColor": "rgb(41,98,255)",
+            "perpLedColor": "rgb(233,30,99)"
+          },
+          "series": [
+            "spot-perp-flow",
+            "apl2dofq"
+          ],
+          "displayName": "Spot-Perp Aggression",
+          "unsavedChanges": false,
+          "createdAt": 1789575702208,
+          "updatedAt": 1789575702213,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "spot-perp-flow"
+        },
+        "absorption": {
+          "script": "// Passive absorption detector.\n// Bull (green, up): bar closed UP while net delta was NEGATIVE on elevated volume\n//   -> market sells hit resting bids and price still rose = passive accumulation\n// Bear (red, down): bar closed DOWN while net delta was POSITIVE on elevated volume\n//   -> market buys hit resting offers and price still fell = passive distribution\np = avg_ohlc(bar)\ndir = p.close - p.open\ndelta = vbuy - vsell\nvol = vbuy + vsell\na = sma(Math.pow(vol, 2), options.length)\nb = Math.pow(sum(vol, options.length), 2) / Math.pow(options.length, 2)\nsd = Math.sqrt(Math.max(a - b, 0))\nthr = sma(vol, options.length) + options.mult * sd\nbullAbs = (dir > 0 && delta < 0 && vol > thr) ? Math.abs(delta) : 0\nbearAbs = (dir < 0 && delta > 0 && vol > thr) ? -Math.abs(delta) : 0\nplothistogram({ time: time, value: bullAbs, color: options.bullColor }, title=\"Bull absorb\")\nplothistogram({ time: time, value: bearAbs, color: options.bearColor }, title=\"Bear absorb\")\n",
+          "id": "absorption",
+          "name": "Absorption",
+          "priceScaleId": "absorption",
+          "options": {
+            "priceScaleId": "absorption",
+            "visible": true,
+            "priceFormat": {
+              "type": "volume"
+            },
+            "bullColor": "rgb(0,230,118)",
+            "bearColor": "rgb(255,82,82)",
+            "length": 50,
+            "mult": 0.5,
+            "scaleMargins": {
+              "top": 0.81,
+              "bottom": 0.13
+            }
+          },
+          "series": [
+            "absorption",
+            "0he7raky"
+          ],
+          "displayName": "Absorption",
+          "unsavedChanges": false,
+          "createdAt": 1789575702208,
+          "updatedAt": 1789576056802,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "absorption"
+        },
+        "liq-cascade": {
+          "script": "// Highlights bars where total liquidations exceed mean + mult*stdev over the lookback.\n// Overlaid on the base Liquidations histogram in bright colours.\n// Up (magenta) = shorts liquidated, Down (yellow) = longs liquidated.\nliqTot = lbuy + lsell\na = sma(Math.pow(liqTot, 2), options.length)\nb = Math.pow(sum(liqTot, options.length), 2) / Math.pow(options.length, 2)\nsd = Math.sqrt(Math.max(a - b, 0))\nthr = sma(liqTot, options.length) + options.mult * sd\nsig = liqTot > thr ? 1 : 0\nplothistogram({ time: time, value: sig * lbuy, color: options.shortColor }, title=\"Short liq cascade\")\nplothistogram({ time: time, value: -sig * lsell, color: options.longColor }, title=\"Long liq cascade\")\n",
+          "id": "liq-cascade",
+          "name": "Liq Cascade",
+          "priceScaleId": "volume_liquidations",
+          "options": {
+            "priceScaleId": "volume_liquidations",
+            "visible": true,
+            "priceFormat": {
+              "type": "volume"
+            },
+            "shortColor": "rgb(255,0,255)",
+            "longColor": "rgb(255,255,0)",
+            "length": 100,
+            "mult": 2,
+            "scaleMargins": {
+              "top": 0.88,
+              "bottom": 0.06
+            }
+          },
+          "series": [
+            "liq-cascade",
+            "5uqjzeqq"
+          ],
+          "displayName": "Liq Cascade",
+          "unsavedChanges": false,
+          "createdAt": 1789575702208,
+          "updatedAt": 1789575702208,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "liq-cascade"
+        }
+      },
+      "indicatorOrder": [
+        "keltner",
+        "price",
+        "cvd",
+        "cvd-spot",
+        "cvd-perp",
+        "spot-perp-flow",
+        "delta-spot",
+        "delta-perp",
+        "premium",
+        "cb-premium",
+        "absorption",
+        "liquidations",
+        "liq-cascade",
+        "volume"
+      ],
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.02,
+            "bottom": 0.74
+          },
+          "indicators": [
+            "Price",
+            "Keltner Channel"
+          ]
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.27,
+            "bottom": 0.55
+          },
+          "indicators": [
+            "CVD"
+          ]
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0.88,
+            "bottom": 0.06
+          },
+          "indicators": [
+            "Liquidations",
+            "Liq Cascade"
+          ]
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.94,
+            "bottom": 0
+          },
+          "indicators": [
+            "Volume"
+          ]
+        },
+        "cvd-perp": {
+          "scaleMargins": {
+            "top": 0.27,
+            "bottom": 0.55
+          },
+          "indicators": [
+            "CVD PERP"
+          ]
+        },
+        "delta-spot": {
+          "scaleMargins": {
+            "top": 0.53,
+            "bottom": 0.4
+          },
+          "indicators": [
+            "Delta Spot"
+          ]
+        },
+        "delta-perp": {
+          "scaleMargins": {
+            "top": 0.61,
+            "bottom": 0.32
+          },
+          "indicators": [
+            "Delta Perp"
+          ]
+        },
+        "premium": {
+          "scaleMargins": {
+            "top": 0.69,
+            "bottom": 0.26
+          },
+          "indicators": [
+            "Premium"
+          ]
+        },
+        "cvd-spot": {
+          "scaleMargins": {
+            "top": 0.27,
+            "bottom": 0.55
+          },
+          "indicators": [
+            "CVD SPOT"
+          ]
+        },
+        "spot-perp-flow": {
+          "scaleMargins": {
+            "top": 0.46,
+            "bottom": 0.48
+          },
+          "indicators": [
+            "Spot-Perp Aggression"
+          ]
+        },
+        "cb-premium": {
+          "scaleMargins": {
+            "top": 0.75,
+            "bottom": 0.2
+          },
+          "indicators": [
+            "CB Premium"
+          ]
+        },
+        "absorption": {
+          "scaleMargins": {
+            "top": 0.81,
+            "bottom": 0.13
+          },
+          "indicators": [
+            "Absorption"
+          ]
+        }
+      },
+      "layouting": false,
+      "showIndicators": false,
+      "timeframe": "1800",
+      "refreshRate": 1000,
+      "showAlerts": true,
+      "showAlertsLabel": true,
+      "showLegend": false,
+      "fillGapsWithEmpty": true,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": false,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "showBorder": true,
+      "borderColor": null,
+      "textColor": null,
+      "showLeftScale": false,
+      "showRightScale": true,
+      "showTimeScale": true,
+      "hiddenMarkets": {},
+      "barSpacing": 8.600517872861555,
+      "_id": "chart",
+      "navigationState": {
+        "tab": "script",
+        "optionsQuery": "",
+        "fontSizePx": 14
+      },
+      "forceNormalizePrice": false
+    },
+    "stats": {
+      "granularity": 5000,
+      "window": 60000,
+      "enableChart": false,
+      "buckets": {
+        "trades": {
+          "id": "trades",
+          "name": "TRADES",
+          "input": "cbuy + csell",
+          "enabled": true,
+          "color": "rgba(255, 255, 255, .25)",
+          "precision": 2,
+          "type": "line",
+          "conditionnalColor": false
+        },
+        "vold": {
+          "id": "vold",
+          "name": "VOLUME Δ",
+          "input": "vbuy - vsell",
+          "enabled": true,
+          "color": "#40d745",
+          "type": "area",
+          "conditionnalColor": false
+        },
+        "tradesd": {
+          "id": "tradesd",
+          "name": "TRADES Δ",
+          "input": "cbuy - csell",
+          "enabled": true,
+          "color": "#2196f3",
+          "precision": 2,
+          "type": "line",
+          "conditionnalColor": false
+        },
+        "1hliq": {
+          "id": "1hliq",
+          "name": "1m LIQUIDATIONS",
+          "window": 60000,
+          "input": "lbuy+lsell",
+          "enabled": true,
+          "color": "",
+          "conditionnalColor": true,
+          "type": "histogram"
+        }
+      },
+      "_id": "stats"
+    },
+    "stats2": {
+      "granularity": 5000,
+      "window": 60000,
+      "enableChart": false,
+      "buckets": {
+        "trades": {
+          "id": "trades",
+          "name": "TRADES",
+          "input": "cbuy + csell",
+          "enabled": true,
+          "color": "rgba(255, 255, 255, .25)",
+          "precision": 2,
+          "type": "line"
+        },
+        "vold": {
+          "id": "vold",
+          "name": "VOLUME",
+          "input": "vbuy + vsell",
+          "enabled": true,
+          "color": "#40d745",
+          "type": "area",
+          "conditionnalColor": false
+        },
+        "tradesd": {
+          "id": "tradesd",
+          "name": "TRADES Δ",
+          "input": "cbuy - csell",
+          "enabled": true,
+          "color": "#2196f3",
+          "precision": 2,
+          "type": "line"
+        },
+        "1hliq": {
+          "id": "1hliq",
+          "name": "1H LIQUIDATIONS Δ",
+          "window": 3600000,
+          "input": "lbuy-lsell",
+          "enabled": false,
+          "color": "value>0?'#43a047':'#f44336'",
+          "conditionnalColor": true,
+          "type": "histogram"
+        }
+      },
+      "_id": "stats2"
+    },
+    "trades3": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 9999.999999999998,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 99999.99999999994,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 299999.99999999994,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 999999.9999999993,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(174,19,73,0.7)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 9999.999999999998,
+          "buyColor": "rgba(25,60,156,0.5)",
+          "sellColor": "rgba(143,18,61,0.5)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 99999.99999999994,
+          "buyColor": "rgba(41,98,255,0.8)",
+          "sellColor": "rgba(233,30,99,0.8)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0);\nplay(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0);\nplay(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 299999.99999999994,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(41,98,255,1)",
+          "sellColor": "rgba(233,30,99,1)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 999999.9999999993,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(132,153,255,1)",
+          "sellColor": "rgba(239,130,154,1)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": null,
+      "audioVolume": null,
+      "showPairs": false,
+      "showTrades": false,
+      "showLiquidations": true,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 10,
+      "showAvgPrice": true,
+      "_id": "trades3",
+      "showThresholdsAsTable": true
+    },
+    "trades2": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 201500,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 403000,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 806000,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 4030000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 6199.7,
+          "buyColor": "rgba(25,60,156,0.5)",
+          "sellColor": "rgba(143,18,61,0.5)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)",
+          "buy": "rgba(119, 148, 92, 0.25)"
+        },
+        {
+          "id": "significant",
+          "amount": 62000.3,
+          "buyColor": "rgba(41,98,255,0.8)",
+          "sellColor": "rgba(233,30,99,0.8)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0);\nplay(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0);\nplay(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 186000.6,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(41,98,255,1)",
+          "sellColor": "rgba(233,30,99,1)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 619999.4,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(132,153,255,1)",
+          "sellColor": "rgba(239,130,154,1)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "max": false
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": null,
+      "audioVolume": null,
+      "showPairs": false,
+      "showTrades": true,
+      "showLiquidations": false,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 4.03,
+      "showAvgPrice": true,
+      "_id": "trades2",
+      "showThresholdsAsTable": true
+    },
+    "trades": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 127600,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 638000,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 1276000,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 6380000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 12760,
+          "buyColor": "rgba(25,60,156,0.5)",
+          "sellColor": "rgba(143,18,61,0.5)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 127600,
+          "buyColor": "rgba(41,98,255,0.8)",
+          "sellColor": "rgba(233,30,99,0.8)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0);\nplay(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0);\nplay(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 382800,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(41,98,255,1)",
+          "sellColor": "rgba(233,30,99,1)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 1276000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(132,153,255,1)",
+          "sellColor": "rgba(239,130,154,1)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": null,
+      "audioVolume": null,
+      "showPairs": false,
+      "showTrades": true,
+      "showLiquidations": false,
+      "showLogos": true,
+      "monochromeLogos": true,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 6.38,
+      "showAvgPrice": true,
+      "_id": "trades",
+      "showThresholdsAsTable": true
+    },
+    "chart_ltf": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "price": {
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "enabled": true,
+          "name": "Price",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 1,
+              "minMove": 0.1
+            },
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(255,255,255,0.7)",
+            "downColor": "rgb(0,0,0)",
+            "borderUpColor": "rgba(255,255,255,0.5)",
+            "borderDownColor": "rgba(255,255,255,0.5)",
+            "wickUpColor": "rgba(255,255,255,0.5)",
+            "wickDownColor": "rgba(255,255,255,0.5)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.02,
+              "bottom": 0.84
+            }
+          },
+          "id": "price",
+          "createdAt": 1648450392186,
+          "updatedAt": 1789581135494,
+          "series": [
+            "price"
+          ],
+          "unsavedChanges": true,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSize": 1
+          },
+          "displayName": "Price",
+          "optionsDefinitions": {},
+          "priceScaleId": "right"
+        },
+        "spot-size-z": {
+          "script": "// SIZE-BUCKET ACTIVITY, each bucket z-scored against ITS OWN recent history.\n// A line at +2 means that bucket is buying two standard deviations harder than its normal, whatever its\n// dollar size — so Big, Mid and Small are directly comparable on one axis. Cumulative CVDs show level and\n// who is bigger; this shows who is being aggressive right now.\n// Same adaptive buckets as the Big/Mid/Small CVDs (options.length / options.mult).\n// Dotted lines at +/- options.hi sigma.\nbuy_vol = source(vbuy, type=spot)\nbuy_close = source(cbuy, type=spot)\nbuySize = buy_vol / Math.max(buy_close, 1)\nsell_vol = source(vsell, type=spot)\nsell_close = source(csell, type=spot)\nsellSize = sell_vol / Math.max(sell_close, 1)\na_b = sma(Math.pow(buySize, 2), options.length)\nb_b = Math.pow(sum(buySize, options.length), 2) / Math.pow(options.length, 2)\nsd_b = Math.sqrt(Math.max(a_b - b_b, 0))\nbasis_b = sma(buySize, options.length)\nup_b = basis_b + options.mult * sd_b\nlo_b = basis_b - options.mult * sd_b\na_s = sma(Math.pow(sellSize, 2), options.length)\nb_s = Math.pow(sum(sellSize, options.length), 2) / Math.pow(options.length, 2)\nsd_s = Math.sqrt(Math.max(a_s - b_s, 0))\nbasis_s = sma(sellSize, options.length)\nup_s = basis_s + options.mult * sd_s\nlo_s = basis_s - options.mult * sd_s\nbigFlow = (buySize > up_b ? buy_vol : 0) - (sellSize > up_s ? sell_vol : 0)\nmidFlow = ((buySize > lo_b) && (buySize < up_b) ? buy_vol : 0) - ((sellSize > lo_s) && (sellSize < up_s) ? sell_vol : 0)\nsmallFlow = (buySize < lo_b ? buy_vol : 0) - (sellSize < lo_s ? sell_vol : 0)\nbigS = sma(bigFlow, options.smooth)\nmidS = sma(midFlow, options.smooth)\nsmallS = sma(smallFlow, options.smooth)\nbigMean = sma(bigS, options.zwin)\nbigSq = sma(bigS * bigS, options.zwin)\nbigSd = Math.sqrt(Math.max(bigSq - bigMean * bigMean, 0))\nbigZ = bigSd > 0 ? (bigS - bigMean) / bigSd : 0\nmidMean = sma(midS, options.zwin)\nmidSq = sma(midS * midS, options.zwin)\nmidSd = Math.sqrt(Math.max(midSq - midMean * midMean, 0))\nmidZ = midSd > 0 ? (midS - midMean) / midSd : 0\nsmallMean = sma(smallS, options.zwin)\nsmallSq = sma(smallS * smallS, options.zwin)\nsmallSd = Math.sqrt(Math.max(smallSq - smallMean * smallMean, 0))\nsmallZ = smallSd > 0 ? (smallS - smallMean) / smallSd : 0\nvar hiLine = options.hi\nvar loLine = 0 - options.hi\nplotline(0, color=options.zeroColor)\nplotline(hiLine, color=options.bandColor)\nplotline(loLine, color=options.bandColor)\nline(bigZ, color=options.bigColor, lineWidth=2, title=\"spot big z\")\nline(midZ, color=options.midColor, title=\"spot mid z\")\nline(smallZ, color=options.smallColor, title=\"spot small z\")\n",
+          "id": "spot-size-z",
+          "name": "Spot Size Activity",
+          "priceScaleId": "spot-size-z",
+          "options": {
+            "priceScaleId": "spot-size-z",
+            "visible": true,
+            "length": 50,
+            "mult": 1,
+            "smooth": 6,
+            "zwin": 288,
+            "hi": 2,
+            "zeroColor": "rgba(255,255,255,0.25)",
+            "bandColor": "rgba(255,255,255,0.3)",
+            "bigColor": "rgb(12,50,153)",
+            "midColor": "rgb(41,98,255)",
+            "smallColor": "rgb(126,160,255)",
+            "scaleMargins": {
+              "top": 0.18,
+              "bottom": 0.6
+            }
+          },
+          "series": [
+            "spot-size-z",
+            "kiy0d7p1",
+            "09efetl1",
+            "9jx9hly0",
+            "xqldgdx7",
+            "2wo5h2vv"
+          ],
+          "displayName": "Spot Size Activity",
+          "unsavedChanges": false,
+          "createdAt": 1789581135494,
+          "updatedAt": 1789581135494,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "spot-size-z"
+        },
+        "perp-size-z": {
+          "script": "// SIZE-BUCKET ACTIVITY, each bucket z-scored against ITS OWN recent history.\n// A line at +2 means that bucket is buying two standard deviations harder than its normal, whatever its\n// dollar size — so Big, Mid and Small are directly comparable on one axis. Cumulative CVDs show level and\n// who is bigger; this shows who is being aggressive right now.\n// Same adaptive buckets as the Big/Mid/Small CVDs (options.length / options.mult).\n// Dotted lines at +/- options.hi sigma.\nbuy_vol = source(vbuy, type=perp)\nbuy_close = source(cbuy, type=perp)\nbuySize = buy_vol / Math.max(buy_close, 1)\nsell_vol = source(vsell, type=perp)\nsell_close = source(csell, type=perp)\nsellSize = sell_vol / Math.max(sell_close, 1)\na_b = sma(Math.pow(buySize, 2), options.length)\nb_b = Math.pow(sum(buySize, options.length), 2) / Math.pow(options.length, 2)\nsd_b = Math.sqrt(Math.max(a_b - b_b, 0))\nbasis_b = sma(buySize, options.length)\nup_b = basis_b + options.mult * sd_b\nlo_b = basis_b - options.mult * sd_b\na_s = sma(Math.pow(sellSize, 2), options.length)\nb_s = Math.pow(sum(sellSize, options.length), 2) / Math.pow(options.length, 2)\nsd_s = Math.sqrt(Math.max(a_s - b_s, 0))\nbasis_s = sma(sellSize, options.length)\nup_s = basis_s + options.mult * sd_s\nlo_s = basis_s - options.mult * sd_s\nbigFlow = (buySize > up_b ? buy_vol : 0) - (sellSize > up_s ? sell_vol : 0)\nmidFlow = ((buySize > lo_b) && (buySize < up_b) ? buy_vol : 0) - ((sellSize > lo_s) && (sellSize < up_s) ? sell_vol : 0)\nsmallFlow = (buySize < lo_b ? buy_vol : 0) - (sellSize < lo_s ? sell_vol : 0)\nbigS = sma(bigFlow, options.smooth)\nmidS = sma(midFlow, options.smooth)\nsmallS = sma(smallFlow, options.smooth)\nbigMean = sma(bigS, options.zwin)\nbigSq = sma(bigS * bigS, options.zwin)\nbigSd = Math.sqrt(Math.max(bigSq - bigMean * bigMean, 0))\nbigZ = bigSd > 0 ? (bigS - bigMean) / bigSd : 0\nmidMean = sma(midS, options.zwin)\nmidSq = sma(midS * midS, options.zwin)\nmidSd = Math.sqrt(Math.max(midSq - midMean * midMean, 0))\nmidZ = midSd > 0 ? (midS - midMean) / midSd : 0\nsmallMean = sma(smallS, options.zwin)\nsmallSq = sma(smallS * smallS, options.zwin)\nsmallSd = Math.sqrt(Math.max(smallSq - smallMean * smallMean, 0))\nsmallZ = smallSd > 0 ? (smallS - smallMean) / smallSd : 0\nvar hiLine = options.hi\nvar loLine = 0 - options.hi\nplotline(0, color=options.zeroColor)\nplotline(hiLine, color=options.bandColor)\nplotline(loLine, color=options.bandColor)\nline(bigZ, color=options.bigColor, lineWidth=2, title=\"perp big z\")\nline(midZ, color=options.midColor, title=\"perp mid z\")\nline(smallZ, color=options.smallColor, title=\"perp small z\")\n",
+          "id": "perp-size-z",
+          "name": "Perp Size Activity",
+          "priceScaleId": "perp-size-z",
+          "options": {
+            "priceScaleId": "perp-size-z",
+            "visible": true,
+            "length": 50,
+            "mult": 1,
+            "smooth": 6,
+            "zwin": 288,
+            "hi": 2,
+            "zeroColor": "rgba(255,255,255,0.25)",
+            "bandColor": "rgba(255,255,255,0.3)",
+            "bigColor": "rgb(108,12,63)",
+            "midColor": "rgba(233,30,99,0.89)",
+            "smallColor": "rgb(254,119,164)",
+            "scaleMargins": {
+              "top": 0.42,
+              "bottom": 0.36
+            }
+          },
+          "series": [
+            "perp-size-z",
+            "ol94zsy7",
+            "rzfgy9xw",
+            "deicph23",
+            "ughybi62",
+            "pnysydhg"
+          ],
+          "displayName": "Perp Size Activity",
+          "unsavedChanges": false,
+          "createdAt": 1789581135494,
+          "updatedAt": 1789581135494,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "perp-size-z"
+        },
+        "venue-z-bands": {
+          "script": "// Reference lines for the venue z-lines sharing this scale.\nvar hiLine = options.hi\nvar loLine = 0 - options.hi\nplotline(0, color=options.zeroColor)\nplotline(hiLine, color=options.bandColor)\nplotline(loLine, color=options.bandColor)\n",
+          "id": "venue-z-bands",
+          "name": "Venue z bands",
+          "priceScaleId": "venue-z",
+          "options": {
+            "priceScaleId": "venue-z",
+            "visible": true,
+            "hi": 2,
+            "zeroColor": "rgba(255,255,255,0.25)",
+            "bandColor": "rgba(255,255,255,0.3)",
+            "scaleMargins": {
+              "top": 0.66,
+              "bottom": 0.02
+            }
+          },
+          "series": [
+            "venue-z-bands",
+            "gyt1ff4w",
+            "y7u9cnay"
+          ],
+          "displayName": "Venue z bands",
+          "unsavedChanges": false,
+          "createdAt": 1789581393044,
+          "updatedAt": 1789581393044,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "venue-z-bands"
+        },
+        "venue-z-BINANCE": {
+          "script": "// BINANCE ACTIVITY, z-scored against this venue's own recent history.\n// Net market flow on BINANCE (all its markets in this pane), smoothed, then expressed in standard deviations of\n// its own last 24h. +2 = this venue is buying two sigma harder than its normal, regardless of how big it is\n// in dollars — so venues are directly comparable on one axis. Bands are drawn by the 'Venue z bands' indicator.\n_vbuy=(BINANCE:btcusdt.vbuy+BINANCE:btctusd.vbuy+BINANCE:btcusdc.vbuy+BINANCE:btcfdusd.vbuy)\n_vsell=(BINANCE:btcusdt.vsell+BINANCE:btctusd.vsell+BINANCE:btcusdc.vsell+BINANCE:btcfdusd.vsell)\nnetFlow = _vbuy - _vsell\nnetS = sma(netFlow, options.smooth)\nnetMean = sma(netS, options.zwin)\nnetSq = sma(netS * netS, options.zwin)\nnetSd = Math.sqrt(Math.max(netSq - netMean * netMean, 0))\nnetZ = netSd > 0 ? (netS - netMean) / netSd : 0\nline(netZ, color=options.color, title=\"BINANCE\")\n",
+          "id": "venue-z-BINANCE",
+          "name": "venue-z-BINANCE",
+          "priceScaleId": "venue-z",
+          "options": {
+            "priceScaleId": "venue-z",
+            "visible": true,
+            "color": "rgb(255,152,0)",
+            "smooth": 6,
+            "zwin": 288,
+            "scaleMargins": {
+              "top": 0.66,
+              "bottom": 0.02
+            }
+          },
+          "series": [
+            "venue-z-BINANCE"
+          ],
+          "displayName": "venue-z-BINANCE",
+          "unsavedChanges": false,
+          "createdAt": 1789581393044,
+          "updatedAt": 1789581393044,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "venue-z-BINANCE"
+        },
+        "venue-z-BINANCE_FUTURES": {
+          "script": "// BINANCE_FUTURES ACTIVITY, z-scored against this venue's own recent history.\n// Net market flow on BINANCE_FUTURES (all its markets in this pane), smoothed, then expressed in standard deviations of\n// its own last 24h. +2 = this venue is buying two sigma harder than its normal, regardless of how big it is\n// in dollars — so venues are directly comparable on one axis. Bands are drawn by the 'Venue z bands' indicator.\n_vbuy=(BINANCE_FUTURES:btcusdt.vbuy+BINANCE_FUTURES:btcusdc.vbuy+BINANCE_FUTURES:btcusd_perp.vbuy)\n_vsell=(BINANCE_FUTURES:btcusdt.vsell+BINANCE_FUTURES:btcusdc.vsell+BINANCE_FUTURES:btcusd_perp.vsell)\nnetFlow = _vbuy - _vsell\nnetS = sma(netFlow, options.smooth)\nnetMean = sma(netS, options.zwin)\nnetSq = sma(netS * netS, options.zwin)\nnetSd = Math.sqrt(Math.max(netSq - netMean * netMean, 0))\nnetZ = netSd > 0 ? (netS - netMean) / netSd : 0\nline(netZ, color=options.color, title=\"BINANCE_FUTURES\")\n",
+          "id": "venue-z-BINANCE_FUTURES",
+          "name": "venue-z-BINANCE_FUTURES",
+          "priceScaleId": "venue-z",
+          "options": {
+            "priceScaleId": "venue-z",
+            "visible": true,
+            "color": "rgb(200,200,200)",
+            "smooth": 6,
+            "zwin": 288,
+            "scaleMargins": {
+              "top": 0.66,
+              "bottom": 0.02
+            }
+          },
+          "series": [
+            "venue-z-BINANCE_FUTURES"
+          ],
+          "displayName": "venue-z-BINANCE_FUTURES",
+          "unsavedChanges": false,
+          "createdAt": 1789581393044,
+          "updatedAt": 1789581393044,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "venue-z-BINANCE_FUTURES"
+        },
+        "venue-z-BYBIT": {
+          "script": "// BYBIT ACTIVITY, z-scored against this venue's own recent history.\n// Net market flow on BYBIT (all its markets in this pane), smoothed, then expressed in standard deviations of\n// its own last 24h. +2 = this venue is buying two sigma harder than its normal, regardless of how big it is\n// in dollars — so venues are directly comparable on one axis. Bands are drawn by the 'Venue z bands' indicator.\n_vbuy=(BYBIT:BTCUSDT-SPOT.vbuy+BYBIT:BTCUSDC-SPOT.vbuy+BYBIT:BTCUSDT.vbuy+BYBIT:BTCUSD.vbuy)\n_vsell=(BYBIT:BTCUSDT-SPOT.vsell+BYBIT:BTCUSDC-SPOT.vsell+BYBIT:BTCUSDT.vsell+BYBIT:BTCUSD.vsell)\nnetFlow = _vbuy - _vsell\nnetS = sma(netFlow, options.smooth)\nnetMean = sma(netS, options.zwin)\nnetSq = sma(netS * netS, options.zwin)\nnetSd = Math.sqrt(Math.max(netSq - netMean * netMean, 0))\nnetZ = netSd > 0 ? (netS - netMean) / netSd : 0\nline(netZ, color=options.color, title=\"BYBIT\")\n",
+          "id": "venue-z-BYBIT",
+          "name": "venue-z-BYBIT",
+          "priceScaleId": "venue-z",
+          "options": {
+            "priceScaleId": "venue-z",
+            "visible": true,
+            "color": "rgb(255,235,59)",
+            "smooth": 6,
+            "zwin": 288,
+            "scaleMargins": {
+              "top": 0.66,
+              "bottom": 0.02
+            }
+          },
+          "series": [
+            "venue-z-BYBIT"
+          ],
+          "displayName": "venue-z-BYBIT",
+          "unsavedChanges": false,
+          "createdAt": 1789581393044,
+          "updatedAt": 1789581393044,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "venue-z-BYBIT"
+        },
+        "venue-z-COINBASE": {
+          "script": "// COINBASE ACTIVITY, z-scored against this venue's own recent history.\n// Net market flow on COINBASE (all its markets in this pane), smoothed, then expressed in standard deviations of\n// its own last 24h. +2 = this venue is buying two sigma harder than its normal, regardless of how big it is\n// in dollars — so venues are directly comparable on one axis. Bands are drawn by the 'Venue z bands' indicator.\n_vbuy=(COINBASE:BTC-USDC.vbuy+COINBASE:BTC-USD.vbuy+COINBASE:BTC-USDT.vbuy+COINBASE:BTC-PERP-INTX.vbuy)\n_vsell=(COINBASE:BTC-USDC.vsell+COINBASE:BTC-USD.vsell+COINBASE:BTC-USDT.vsell+COINBASE:BTC-PERP-INTX.vsell)\nnetFlow = _vbuy - _vsell\nnetS = sma(netFlow, options.smooth)\nnetMean = sma(netS, options.zwin)\nnetSq = sma(netS * netS, options.zwin)\nnetSd = Math.sqrt(Math.max(netSq - netMean * netMean, 0))\nnetZ = netSd > 0 ? (netS - netMean) / netSd : 0\nline(netZ, color=options.color, title=\"COINBASE\")\n",
+          "id": "venue-z-COINBASE",
+          "name": "venue-z-COINBASE",
+          "priceScaleId": "venue-z",
+          "options": {
+            "priceScaleId": "venue-z",
+            "visible": true,
+            "color": "rgba(41,98,255,0.75)",
+            "smooth": 6,
+            "zwin": 288,
+            "scaleMargins": {
+              "top": 0.66,
+              "bottom": 0.02
+            }
+          },
+          "series": [
+            "venue-z-COINBASE"
+          ],
+          "displayName": "venue-z-COINBASE",
+          "unsavedChanges": false,
+          "createdAt": 1789581393044,
+          "updatedAt": 1789581393044,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "venue-z-COINBASE"
+        },
+        "venue-z-DERIBIT": {
+          "script": "// DERIBIT ACTIVITY, z-scored against this venue's own recent history.\n// Net market flow on DERIBIT (all its markets in this pane), smoothed, then expressed in standard deviations of\n// its own last 24h. +2 = this venue is buying two sigma harder than its normal, regardless of how big it is\n// in dollars — so venues are directly comparable on one axis. Bands are drawn by the 'Venue z bands' indicator.\n_vbuy=(DERIBIT:BTC-PERPETUAL.vbuy+DERIBIT:BTC_USDC-PERPETUAL.vbuy)\n_vsell=(DERIBIT:BTC-PERPETUAL.vsell+DERIBIT:BTC_USDC-PERPETUAL.vsell)\nnetFlow = _vbuy - _vsell\nnetS = sma(netFlow, options.smooth)\nnetMean = sma(netS, options.zwin)\nnetSq = sma(netS * netS, options.zwin)\nnetSd = Math.sqrt(Math.max(netSq - netMean * netMean, 0))\nnetZ = netSd > 0 ? (netS - netMean) / netSd : 0\nline(netZ, color=options.color, title=\"DERIBIT\")\n",
+          "id": "venue-z-DERIBIT",
+          "name": "venue-z-DERIBIT",
+          "priceScaleId": "venue-z",
+          "options": {
+            "priceScaleId": "venue-z",
+            "visible": true,
+            "color": "rgba(0,102,89,0.75)",
+            "smooth": 6,
+            "zwin": 288,
+            "scaleMargins": {
+              "top": 0.66,
+              "bottom": 0.02
+            }
+          },
+          "series": [
+            "venue-z-DERIBIT"
+          ],
+          "displayName": "venue-z-DERIBIT",
+          "unsavedChanges": false,
+          "createdAt": 1789581393044,
+          "updatedAt": 1789581393044,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "venue-z-DERIBIT"
+        },
+        "venue-z-HYPERLIQUID": {
+          "script": "// HYPERLIQUID ACTIVITY, z-scored against this venue's own recent history.\n// Net market flow on HYPERLIQUID (all its markets in this pane), smoothed, then expressed in standard deviations of\n// its own last 24h. +2 = this venue is buying two sigma harder than its normal, regardless of how big it is\n// in dollars — so venues are directly comparable on one axis. Bands are drawn by the 'Venue z bands' indicator.\n_vbuy=(HYPERLIQUID:BTC.vbuy)\n_vsell=(HYPERLIQUID:BTC.vsell)\nnetFlow = _vbuy - _vsell\nnetS = sma(netFlow, options.smooth)\nnetMean = sma(netS, options.zwin)\nnetSq = sma(netS * netS, options.zwin)\nnetSd = Math.sqrt(Math.max(netSq - netMean * netMean, 0))\nnetZ = netSd > 0 ? (netS - netMean) / netSd : 0\nline(netZ, color=options.color, title=\"HYPERLIQUID\")\n",
+          "id": "venue-z-HYPERLIQUID",
+          "name": "venue-z-HYPERLIQUID",
+          "priceScaleId": "venue-z",
+          "options": {
+            "priceScaleId": "venue-z",
+            "visible": true,
+            "color": "rgba(115,198,178,0.75)",
+            "smooth": 6,
+            "zwin": 288,
+            "scaleMargins": {
+              "top": 0.66,
+              "bottom": 0.02
+            }
+          },
+          "series": [
+            "venue-z-HYPERLIQUID"
+          ],
+          "displayName": "venue-z-HYPERLIQUID",
+          "unsavedChanges": false,
+          "createdAt": 1789581393044,
+          "updatedAt": 1789581393044,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions"
+            ],
+            "tab": "#script",
+            "optionsQuery": "",
+            "fontSizePx": 11
+          },
+          "optionsDefinitions": {},
+          "libraryId": "venue-z-HYPERLIQUID"
+        }
+      },
+      "indicatorOrder": [
+        "price",
+        "spot-size-z",
+        "perp-size-z",
+        "venue-z-bands",
+        "venue-z-BINANCE",
+        "venue-z-BINANCE_FUTURES",
+        "venue-z-BYBIT",
+        "venue-z-COINBASE",
+        "venue-z-DERIBIT",
+        "venue-z-HYPERLIQUID"
+      ],
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.02,
+            "bottom": 0.84
+          },
+          "indicators": [
+            "Price"
+          ]
+        },
+        "spot-size-z": {
+          "scaleMargins": {
+            "top": 0.18,
+            "bottom": 0.6
+          },
+          "indicators": [
+            "Spot Size Activity"
+          ]
+        },
+        "perp-size-z": {
+          "scaleMargins": {
+            "top": 0.42,
+            "bottom": 0.36
+          },
+          "indicators": [
+            "Perp Size Activity"
+          ]
+        },
+        "venue-z": {
+          "scaleMargins": {
+            "top": 0.66,
+            "bottom": 0.02
+          },
+          "indicators": [
+            "Venue z bands",
+            "venue-z-BINANCE",
+            "venue-z-BINANCE_FUTURES",
+            "venue-z-BYBIT",
+            "venue-z-COINBASE",
+            "venue-z-DERIBIT",
+            "venue-z-HYPERLIQUID"
+          ]
+        }
+      },
+      "layouting": false,
+      "showIndicators": false,
+      "timeframe": "300",
+      "refreshRate": 1000,
+      "showAlerts": true,
+      "showAlertsLabel": true,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": false,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "showBorder": true,
+      "borderColor": null,
+      "textColor": null,
+      "showLeftScale": false,
+      "showRightScale": true,
+      "showTimeScale": true,
+      "hiddenMarkets": {},
+      "barSpacing": 14.629014669037685,
+      "_id": "chart_ltf",
+      "navigationState": {
+        "tab": "script",
+        "optionsQuery": "",
+        "fontSizePx": 14
+      },
+      "forceNormalizePrice": false
+    }
+  }
+}
